@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<head>Sparckleys - Renaming account failed</head>
+</head>
+<body>
+<ul>
+<li><a href="main.html">Main site</a></li>
+<li><a href="logout.html">Log out</a></li>
+</ul>
+<h1>Failure!</h1>
+<p>Your account could not be renamed. This could have the following reasons: </p>
+<ul>
+<li>The new name has invalid characters. Please make sure that your new
+account name only consists of letters, spaces and numbers</li>
+<li>The length of the new name exceeds $MAXLENGTH or deceeds $MINLENGTH
+characters.</li>
+<li>The account was already renamed in the last $MINDELAY seconds.</li>
+<li>The database, webserver or scripts have malfunctioned. If the problem
+persists, please contact <a href="mailto:scriptweasel@sparkle.ys">our
+technical staff.</a></li>
+</ul>
+<p><a href="see_account.html">Cancel and return to account</a></p>
+
+<form>
+<p>New Name for account $ACCOUNT:<input name="name" type="text" size="30"
+maxlength="30" value="Quux"></p>
+<input type="submit" value="Rename!">
+<a href="success_renaming_account.html"><img src="success.gif"></a>
+<a href="failure_renaming_account.html"><img src="failure.gif"></a>
+</form>
+</body>
+</html>

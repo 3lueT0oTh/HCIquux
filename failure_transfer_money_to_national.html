@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<head>Sparckleys - Transaction failed</head>
+</head>
+<body>
+<ul>
+<li><a href="main.html">Main site</a></li>
+<li><a href="logout.html">Log out</a></li>
+</ul>
+<h1>Failure!</h1>
+<p>The transaction could not be processed. This could have the following reasons: </p>
+<ul>
+<li>You somehow managed to bypass the cromulence-checks. Please cromulentify
+your input</li>
+<li>The source account lacks the required funds to execute this transaction.</li>
+<li>The database, webserver or scripts have malfunctioned. If the problem
+persists, please contact <a href="mailto:scriptweasel@sparkle.ys">our
+technical staff.</a></li>
+</ul>
+<p><a href="see_account.html">Cancel and return to account</a></p>
+
+<form>
+Source Account: <select name="src">
+<option>Quux</option>
+<option>Kiu</option>
+<option>Foo</option>
+<option>Bar</option></select><br>
+Destination Account: <input name="tgt" type="text" size="30" maxlength="30" value=""><br>
+Sort Code: <input name="sort" type="text" size="30" maxlength="30" value=""><br>
+Amount: <input name="amnt" type="text" size="30" maxlength="30" value=""><br>
+Comment: <input name="comment" type="text" size="30" maxlength="30" value=""><br>
+<input type="submit" value="Correct">
+<a href="confirm_transfer_money_to_national.html"><img src="confirm.gif"></a>
+</form>
+</body>
+</html>

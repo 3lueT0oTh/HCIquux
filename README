@@ -1,0 +1,25 @@
+Nicht vergessen
+* benennt die Dateien kompatibel (wie in der Textdatei, ersetzt Leerzeichen durch Unterstriche)
+* sendet euer Zeug an alle hier
+* instet euch git http://git-scm.com/download oder http://code.google.com/p/tortoisegit/ oder http://www.eclipse.org/egit/
+* Meldet euch an bei http://www.github.com
+* Folgt den Tutorials da um SSH Keys zu erzeugen und github hinzuzufuegen http://help.github.com/msysgit-key-setup/
+* Meldet euch sofort, nicht erst Wochen spaeter wenn es Probleme gibt
+* Blissymbols fuer Menuepunkte (siehe: http://www.blissymbolics.us/dictionary/money/ ):
+index/main: bank
+See account: account
+transfer money to ntl: to exchange + national
+transfer money to int: to exchange + international
+login: to enter
+logout to exit
+information: ein i
+help: Fragezeichen
+loans: to lend
+insurance: to keep
+investment: to earn
+transactions: to and fro
+confirm: Haken
+standing order: schedule
+add standing order: to add + schedule
+delete standing order: to delete + schedule
+

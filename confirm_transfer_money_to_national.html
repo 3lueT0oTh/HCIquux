@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<head>Sparckleys - Confirm Transferring money to a national account</head>
+</head>
+<body>
+<ul>
+<li><a href="main.html">Main site</a></li>
+<li><a href="logout.html">Log out</a></li>
+</ul>
+<h1>Confirmation required</h1>
+<p>Please check whether the data you entered was correct. After you
+confirmed this, there will be no way to undo the transaction. If some of the
+informations are not correct, please use the form below to correct it.</p>
+<p>Source Account: $SOURCE<br>
+Destination Account: $TARGET<br>
+Sort Code: $SORTCODE<br>
+Amount: $AMOUNT<br>
+Comment: $COMMENT
+</p>
+<p><form><input type="submit" value="Confirm"></form></p>
+<a href="success_transfer_money_to_national.html"><img src="success.gif"></a>
+<a href="failure_transfer_money_to_national.html"><img src="failure.gif"></a>
+
+<p>If the information displayed above is not correct, please correct it
+here.</p>
+<form>
+Source Account: <select name="src">
+<option>Quux</option>
+<option>Kiu</option>
+<option>Foo</option>
+<option>Bar</option></select><br>
+Target Account: <input name="tgt" type="text" size="30" maxlength="30" value=""><br>
+Sort Code: <input name="sort" type="text" size="30" maxlength="30" value=""><br>
+Amount: <input name="amnt" type="text" size="30" maxlength="30" value=""><br>
+Comment: <input name="comment" type="text" size="30" maxlength="30" value=""><br>
+<input type="submit" value="Correct">
+<a href="confirm_transfer_money_to_national.html"><img src="confirm.gif"></a>
+</form>
+<p><a href="see_account.html">Cancel and go back to the account</a></p>
+</body>
+</html>
